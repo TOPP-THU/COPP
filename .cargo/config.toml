@@ -1,0 +1,7 @@
+# .cargo/config.toml
+[build]
+rustdocflags = ["--html-in-header", "mathjax-config.html"]
+rustflags = ["-C", "target-cpu=native"]
+
+[doc]
+rustdocflags = ["--html-in-header", "mathjax-config.html"]

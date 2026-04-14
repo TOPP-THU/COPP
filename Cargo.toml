@@ -1,6 +1,35 @@
 [package]
 name = "copp"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2024"
+description = "Convex-objective path parameterization for robotic trajectory planning."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/TOPP-THU/copp"
+categories = ["science::robotics", "algorithms", "mathematics", "simulation"]
+keywords = [
+    "trajectory-planning",
+    "jerk-limited",
+    "path-parameterization",
+    "convex-optimization",
+    "time-optimal",
+]
+exclude = ["data/**", "target/**"]
+
 
 [dependencies]
+nalgebra = "0.34.1"
+clarabel = "0.11.1"
+thiserror = "2.0.18"
+itertools = "0.14.0"
+rayon = "1.10.0"
+log = "0.4.28"
+chrono = "0.4.44"
+
+[dev-dependencies]
+env_logger = "0.11.8"
+rand = "0.10.1"
+plotters = "0.3.7"
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--html-in-header", "mathjax-config.html"]
