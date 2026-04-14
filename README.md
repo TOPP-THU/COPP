@@ -117,7 +117,7 @@ For other use cases, please cite:
 
 ```tex
 @misc{thu2026copp,
-  title = {{C}{O}{P}{P}: Convex-Objective Path Parameterization},
+  title = {COPP: Convex-Objective Path Parameterization},
   author = {Wang, Yunan and He, Suqin and Lin, Shize and Hu, Chuxiong},
   year = {2026},
   publisher = {GitHub},
