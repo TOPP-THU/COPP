@@ -1,3 +1,7 @@
+//! This example uses [`copp3_socp`] to convert an analytic path into a
+//! third-order convex-objective trajectory whose axial velocity, acceleration,
+//! and jerk all stay within `[-1, 1]`.
+
 use copp::InterpolationMode;
 use copp::diag::CoppError;
 use copp::path::{Jet3, Path, sin};
